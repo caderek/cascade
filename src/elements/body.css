@@ -1,0 +1,7 @@
+@layer framework {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-base-contrast);
+    font-family: var(--font-sans);
+  }
+}

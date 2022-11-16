@@ -1,0 +1,31 @@
+/* @todo Add this functionality to other inline elements like <em> <strong> <b> <i> <cite> */
+
+span[data-prefix]::before {
+  content: attr(data-prefix);
+}
+
+span[data-suffix]::after {
+  content: attr(data-suffix);
+}
+
+[data-ico]::before,
+span[data-ico]::before {
+  content: attr(data-ico) " ";
+}
+
+span[data-ico-prefix]::before {
+  content: attr(data-ico-prefix) " ";
+}
+
+[data-ico-suffix]::after,
+span[data-ico-suffix]::after {
+  content: " " attr(data-ico-suffix);
+}
+
+[data-ico]::before,
+[data-ico-suffix]::after,
+span[data-ico]::before,
+span[data-ico-prefix]::before,
+span[data-ico-suffix]::after {
+  font-family: var(--font-symbol);
+}

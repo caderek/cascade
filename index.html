@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/main.css" />
+    <!-- <link rel="stylesheet" href="../dist/main.min.css" /> -->
+    <link rel="stylesheet" href="../src/custom.css" />
+    <!-- <link rel="stylesheet" href="../src/alt/water.css" /> -->
+    <title>Cascade example</title>
+  </head>
+  <body>
+    <!-- <header></header> -->
+    <nav>
+      <ul>
+        <li><a href="/pages/turtle.html">Turtle</a></li>
+        <li><a href="/pages/buttons.html">Buttons</a></li>
+        <li><a href="/pages/a.html">Anchors</a></li>
+        <li><a href="/pages/input.html">Input</a></li>
+      </ul>
+    </nav>
+    <nav class="clean-all">
+      <ul>
+        <li>
+          Home
+          <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+          </ul>
+        </li>
+        <li>
+          About
+          <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+          </ul>
+        </li>
+        <li>
+          View
+          <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+          </ul>
+        </li>
+        <li>
+          Preferences
+          <ul>
+            <li>
+              one
+              <ul>
+                <li>foo</li>
+                <li>bar</li>
+                <li>baz</li>
+              </ul>
+            </li>
+            <li>
+              two
+              <ul>
+                <li>
+                  foo
+                  <ul>
+                    <li>
+                      one
+                      <ul>
+                        <li>foo</li>
+                        <li>bar</li>
+                        <li>baz</li>
+                      </ul>
+                    </li>
+                    <li>
+                      two
+                      <ul>
+                        <li>foo</li>
+                        <li>bar</li>
+                        <li>baz</li>
+                      </ul>
+                    </li>
+                    <li>three</li>
+                  </ul>
+                </li>
+                <li>bar</li>
+                <li>baz</li>
+              </ul>
+            </li>
+            <li>three</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- <hr /> -->
+    <nav>
+      <ol>
+        <li>foo</li>
+        <li>bar</li>
+        <li>baz</li>
+      </ol>
+    </nav>
+    <hr style="border-top-width: var(--line-xs)" />
+    <main>
+      <article>
+        <header></header>
+        <main>
+          <h1>H1 title</h1>
+          <p>Content</p>
+          <h2>H2 title</h2>
+          <p>Content</p>
+          <h3>H1 title</h3>
+          <p>Content</p>
+          <h4>H2 title</h4>
+          <p>Content</p>
+          <h5>H2 title</h5>
+          <p>Content</p>
+          <h6>H2 title</h6>
+          <p>Content</p>
+          <h2>H2 title</h2>
+          <p>Content</p>
+        </main>
+        <footer></footer>
+      </article>
+      <p>
+        According to
+        <cite
+          title="You're using <em> wrong. Published by LogRocket (October, 2018)"
+          >Facundo Corradini</cite
+        >, we should reconsider the tags we're using to italicise text.
+      </p>
+    </main>
+
+    <dialog>
+      <p>Greetings, one and all!</p>
+      <form method="dialog">
+        <button>OK</button>
+      </form>
+    </dialog>
+
+    <progress id="bar" max="100" value="50"></progress>
+    <script>
+      const $bar = document.getElementById("bar");
+
+      if ($bar) {
+        let inc = 20;
+
+        const go = () => {
+          if ($bar.value >= $bar.max || $bar.value <= 0) {
+            inc *= -1;
+          }
+
+          $bar.value = $bar.value + inc;
+          setTimeout(go, 1000);
+        };
+
+        go();
+      }
+
+      setTimeout(() => {
+        document.querySelector("dialog").open = true;
+      }, 3000);
+    </script>
+  </body>
+</html>

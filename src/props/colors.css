@@ -1,0 +1,79 @@
+:root {
+  --color-base: #f7f7fa;
+  --color-base-lit: #ffffff;
+  --color-base-dim: #eeeef5;
+  --color-base-border: #d6d6e7;
+  --color-base-contrast: #20222b;
+
+  --color-primary: #7743db;
+  --color-primary-lit: #8158e0;
+  --color-primary-dim: #693cc2;
+  --color-primary-border: #5b35aa;
+  --color-primary-contrast: #f0edfd;
+
+  --color-secondary: #d5ccff;
+  --color-secondary-lit: #e2d8ff;
+  --color-secondary-dim: #bcb4e2;
+  --color-secondary-border: #a39dc6;
+  --color-secondary-contrast: #21222d;
+
+  --color-accent: #a7db43;
+  --color-accent-lit: #b0df5d;
+  --color-accent-dim: #93c23f;
+  --color-accent-border: #80a93b;
+  --color-accent-contrast: #182417;
+
+  --color-foreground: var(--color-base-lit);
+  --color-background: var(--color-base-dim);
+
+  --shadow-base: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px;
+  --shadow-primary: rgba(24, 19, 36, 0.9) 0 2px 4px,
+    rgba(24, 19, 36, 0.5) 0 7px 13px -3px;
+  --shadow-secondary: rgba(45, 35, 66, 0.5) 0 2px 4px,
+    rgba(45, 35, 66, 0.4) 0 7px 13px -3px;
+  --shadow-accent: rgba(86, 102, 53, 0.9) 0 2px 4px,
+    rgba(45, 35, 66, 0.5) 0 7px 13px -3px;
+  --shadow-right: rgba(45, 35, 66, 0.4) 4px 4px 6px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-base: #282a36;
+    --color-base-lit: #3a3c48;
+    --color-base-dim: #232531;
+    --color-base-border: #1f212c;
+    --color-base-contrast: #b8b9be;
+
+    --color-primary: #5e36af;
+    --color-primary-lit: #6a3dc5;
+    --color-primary-dim: #523099;
+    --color-primary-border: #462a84;
+    --color-primary-contrast: #c9bef7;
+
+    --color-secondary: #3a3454;
+    --color-secondary-lit: #4b4664;
+    --color-secondary-dim: #332e4b;
+    --color-secondary-border: #2d2943;
+    --color-secondary-contrast: #bfbdc9;
+
+    --color-accent: #80a93b;
+    --color-accent-lit: #93c23f;
+    --color-accent-dim: #6d9036;
+    --color-accent-border: #5a7931;
+    --color-accent-contrast: #182417;
+
+    --color-foreground: var(--color-base-lit);
+    --color-background: var(--color-base-dim);
+
+    --shadow-base: rgba(0, 0, 0, 0.4) 0 2px 4px,
+      rgba(0, 0, 0, 0.3) 0 7px 13px -3px;
+    --shadow-primary: rgba(0, 0, 0, 0.4) 0 2px 4px,
+      rgba(0, 0, 0, 0.3) 0 7px 13px -3px;
+    --shadow-secondary: rgba(0, 0, 0, 0.3) 0 2px 4px,
+      rgba(0, 0, 0, 0.2) 0 7px 13px -3px;
+    --shadow-accent: rgba(0, 0, 0, 0.3) 0 2px 4px,
+      rgba(0, 0, 0, 0.2) 0 7px 13px -3px;
+    --shadow-right: 4px 4px 6px rgba(0, 0, 0, 0.25);
+  }
+}

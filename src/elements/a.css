@@ -1,0 +1,32 @@
+@layer framework {
+  a,
+  a:active,
+  a:visited {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a::after,
+  a::before {
+    font-family: var(--font-symbol);
+  }
+
+  a[href^="https://"]::after,
+  a[href^="http://"]::after,
+  a[href^="//"]::after
+  {
+    content: " " "\f35d";
+  }
+
+  a[href^="mailto:"]::before {
+    content: "\f0e0"" ";
+  }
+
+  a[href^="tel:"]::before {
+    content: "\f87b"" ";
+  }
+}

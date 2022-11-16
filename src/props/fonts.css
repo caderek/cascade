@@ -1,0 +1,18 @@
+@font-face {
+  font-family: FontAwesome;
+  src: url(/fonts/fa-solid-900.woff2);
+}
+
+:root {
+  --font-sans: system-ui, "Segoe UI", Ubuntu, Helvetica, Arial, sans-serif;
+  --font-serif: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  --font-mono: "Courier New", Courier, monospace;
+  --font-symbol: FontAwesome;
+
+  --font-size-xs: 0.625rem;
+  --font-size-s: 0.875rem;
+  --font-size-m: 1rem;
+  --font-size-l: 1.5rem;
+  --font-size-xl: 2rem;
+  --font-size-xxl: 3rem;
+}

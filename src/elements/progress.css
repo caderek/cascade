@@ -1,0 +1,30 @@
+@layer framework {
+  progress {
+    --height: 1rem;
+    --width: 100%;
+    --width-max: 300px;
+    --radius: calc(var(--height) / 2);
+  }
+
+  progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+
+    width: var(--width);
+    max-width: var(--width-max);
+    height: var(--height);
+  }
+
+  progress[value]::-webkit-progress-bar {
+    background-color: var(--color-base-border);
+    border-radius: var(--radius);
+  }
+
+  progress[value]::-webkit-progress-value {
+    background: var(--color-primary);
+    box-shadow: var(--shadow-main);
+    border-radius: var(--radius);
+    transition: 1s;
+  }
+}

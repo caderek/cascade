@@ -1,0 +1,18 @@
+input[type="text"] {
+  --so: 0.2em;
+  --so-n: calc(var(--so) * -1);
+  --blur: 0.3em;
+  background-color: var(--color-base);
+  border: solid 1px var(--color-base-border);
+  font-size: 1rem;
+  padding: 0.5em 0.6em;
+  padding-bottom: calc(0.5em + 2px);
+  margin-left: 3rem;
+  margin-top: 2rem;
+  border-radius: var(--gap-s);
+  margin: var(--gap-s) var(--gap-xs);
+}
+
+input[type="text"]:focus {
+  outline: solid var(--line-xs) var(--color-primary);
+}

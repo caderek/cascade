@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="/">Home</a>
+    <p>
+      <button data-importance="low">A</button>
+      <button data-importance="low">B</button>
+      <button data-importance="low">C</button>
+      <button>D</button>
+      <button>E</button>
+      <button>F</button>
+      <button>G</button>
+      <button>H</button>
+      <button>I</button>
+    </p>
+    <p>
+      <button>Standard</button>
+      <button data-category="primary">Emphasis</button>
+      <button data-category="primary" disabled>Emphasis Disabled</button>
+      <button>Barman</button>
+      <button>Buzz</button>
+      <button disabled>Disabled Bat</button>
+      <button class="pic"></button> Some text <button></button> outside
+    </p>
+    <p>
+      <button>
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg"
+        />
+        <span>Text</span>
+      </button>
+      <button>
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
+        />
+
+        <span>Text</span>
+      </button>
+      <button>
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg"
+        />
+        <span>Illustrator</span>
+      </button>
+      <button>
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-plain.svg"
+        />
+        <span>Facebook</span>
+      </button>
+      <button>
+        <svg viewBox="0 0 128 128">
+          <path
+            fill="#3d5a98"
+            d="M116.42 5.07H11.58a6.5 6.5 0 00-6.5 6.5v104.85a6.5 6.5 0 006.5 6.5H68V77.29H52.66V59.5H68V46.38c0-15.22 9.3-23.51 22.88-23.51a126 126 0 0113.72.7v15.91h-9.39c-7.39 0-8.82 3.51-8.82 8.66V59.5H104l-2.29 17.79H86.39v45.64h30a6.51 6.51 0 006.5-6.5V11.58a6.5 6.5 0 00-6.47-6.51z"
+          ></path>
+        </svg>
+        <span>Facebook</span>
+      </button>
+    </p>
+    <p>
+      <button>
+        <img src="https://picsum.photos/id/23/50" alt="Example" />
+      </button>
+      <button>
+        <span>Text</span>
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg"
+        />
+      </button>
+      <button>
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg"
+        />
+        <span>Text</span>
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bower/bower-original.svg"
+        />
+      </button>
+    </p>
+    <p>
+      <button data-importance="high" data-ico="&#xf00d;"></button>
+      <button data-importance="high">
+        <svg viewBox="0 0 128 128">
+          <path
+            d="M126 1.637l-67 9.834v49.831l67-.534zM1.647 66.709l.003 42.404 50.791 6.983-.04-49.057zm56.82.68l.094 49.465 67.376 9.509.016-58.863zM1.61 19.297l.047 42.383 50.791-.289-.023-49.016z"
+          ></path>
+        </svg>
+      </button>
+      <button data-importance="high" data-category="primary">
+        <svg viewBox="0 0 128 128">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M113.823 104.595c-1.795-1.478-3.629-2.921-5.308-4.525-1.87-1.785-3.045-3.944-2.789-6.678.147-1.573-.216-2.926-2.113-3.452.446-1.154.864-1.928 1.033-2.753.188-.92.178-1.887.204-2.834.264-9.96-3.334-18.691-8.663-26.835-2.454-3.748-5.017-7.429-7.633-11.066-4.092-5.688-5.559-12.078-5.633-18.981a47.564 47.564 0 00-1.081-9.475C80.527 11.956 77.291 7.233 71.422 4.7c-4.497-1.942-9.152-2.327-13.901-1.084-6.901 1.805-11.074 6.934-10.996 14.088.074 6.885.417 13.779.922 20.648.288 3.893-.312 7.252-2.895 10.34-2.484 2.969-4.706 6.172-6.858 9.397-1.229 1.844-2.317 3.853-3.077 5.931-2.07 5.663-3.973 11.373-7.276 16.5-1.224 1.9-1.363 4.026-.494 6.199.225.563.363 1.429.089 1.882-2.354 3.907-5.011 7.345-10.066 8.095-3.976.591-4.172 1.314-4.051 5.413.1 3.337.061 6.705-.28 10.021-.363 3.555.008 4.521 3.442 5.373 7.924 1.968 15.913 3.647 23.492 6.854 3.227 1.365 6.465.891 9.064-1.763 2.713-2.771 6.141-3.855 9.844-3.859 6.285-.005 12.572.298 18.86.369 1.702.02 2.679.653 3.364 2.199.84 1.893 2.26 3.284 4.445 3.526 4.193.462 8.013-.16 11.19-3.359 3.918-3.948 8.436-7.066 13.615-9.227 1.482-.619 2.878-1.592 4.103-2.648 2.231-1.922 2.113-3.146-.135-5zM62.426 24.12c.758-2.601 2.537-4.289 5.243-4.801 2.276-.43 4.203.688 5.639 3.246 1.546 2.758 2.054 5.64.734 8.658-1.083 2.474-1.591 2.707-4.123 1.868-.474-.157-.937-.343-1.777-.652.708-.594 1.154-1.035 1.664-1.382 1.134-.772 1.452-1.858 1.346-3.148-.139-1.694-1.471-3.194-2.837-3.175-1.225.017-2.262 1.167-2.4 2.915-.086 1.089.095 2.199.173 3.589-3.446-1.023-4.711-3.525-3.662-7.118zm-12.75-2.251c1.274-1.928 3.197-2.314 5.101-1.024 2.029 1.376 3.547 5.256 2.763 7.576-.285.844-1.127 1.5-1.716 2.241l-.604-.374c-.23-1.253-.276-2.585-.757-3.733-.304-.728-1.257-1.184-1.919-1.762-.622.739-1.693 1.443-1.757 2.228-.088 1.084.477 2.28.969 3.331.311.661 1.001 1.145 1.713 1.916l-1.922 1.51c-3.018-2.7-3.915-8.82-1.871-11.909zM87.34 86.075c-.203 2.604-.5 2.713-3.118 3.098-1.859.272-2.359.756-2.453 2.964a101.744 101.744 0 00-.012 7.753c.061 1.77-.537 3.158-1.755 4.393-6.764 6.856-14.845 10.105-24.512 8.926-4.17-.509-6.896-3.047-9.097-6.639.98-.363 1.705-.607 2.412-.894 3.122-1.27 3.706-3.955 1.213-6.277-1.884-1.757-3.986-3.283-6.007-4.892-1.954-1.555-3.934-3.078-5.891-4.629-1.668-1.323-2.305-3.028-2.345-5.188-.094-5.182.972-10.03 3.138-14.747 1.932-4.209 3.429-8.617 5.239-12.885.935-2.202 1.906-4.455 3.278-6.388 1.319-1.854 2.134-3.669 1.988-5.94-.084-1.276-.016-2.562-.016-3.843l.707-.352c1.141.985 2.302 1.949 3.423 2.959 4.045 3.646 7.892 3.813 12.319.67 1.888-1.341 3.93-2.47 5.927-3.652.497-.294 1.092-.423 1.934-.738 2.151 5.066 4.262 10.033 6.375 15 1.072 2.524 1.932 5.167 3.264 7.547 2.671 4.775 4.092 9.813 4.07 15.272-.012 2.83.137 5.67-.081 8.482z"
+          ></path>
+        </svg>
+      </button>
+      <button data-importance="high" data-category="special">
+        <svg viewBox="0 0 128 128">
+          <path
+            d="M97.905 67.885c.174 18.8 16.494 25.057 16.674 25.137-.138.44-2.607 8.916-8.597 17.669-5.178 7.568-10.553 15.108-19.018 15.266-8.318.152-10.993-4.934-20.504-4.934-9.508 0-12.479 4.776-20.354 5.086-8.172.31-14.395-8.185-19.616-15.724C15.822 94.961 7.669 66.8 18.616 47.791c5.438-9.44 15.158-15.417 25.707-15.571 8.024-.153 15.598 5.398 20.503 5.398 4.902 0 14.106-6.676 23.782-5.696 4.051.169 15.421 1.636 22.722 12.324-.587.365-13.566 7.921-13.425 23.639M82.272 21.719c4.338-5.251 7.258-12.563 6.462-19.836-6.254.251-13.816 4.167-18.301 9.416-4.02 4.647-7.54 12.087-6.591 19.216 6.971.54 14.091-3.542 18.43-8.796"
+          ></path>
+        </svg>
+      </button>
+      <button data-importance="high">SAVE</button>
+      <button data-importance="high" data-category="primary">SEND</button>
+      <button data-importance="high" data-category="secondary">SEND</button>
+      <button data-importance="high" data-category="special">SEND</button>
+    </p>
+    <p>
+      <button data-importance="low">
+        <svg viewBox="0 0 128 128">
+          <path
+            d="M2 1v125h125V1H2zm66.119 106.513c-1.845 3.749-5.367 6.212-9.448 7.401-6.271 1.44-12.269.619-16.731-2.059-2.986-1.832-5.318-4.652-6.901-7.901l9.52-5.83c.083.035.333.487.667 1.071 1.214 2.034 2.261 3.474 4.319 4.485 2.022.69 6.461 1.131 8.175-2.427 1.047-1.81.714-7.628.714-14.065C58.433 78.073 58.48 68 58.48 58h11.709c0 11 .06 21.418 0 32.152.025 6.58.596 12.446-2.07 17.361zm48.574-3.308c-4.07 13.922-26.762 14.374-35.83 5.176-1.916-2.165-3.117-3.296-4.26-5.795 4.819-2.772 4.819-2.772 9.508-5.485 2.547 3.915 4.902 6.068 9.139 6.949 5.748.702 11.531-1.273 10.234-7.378-1.333-4.986-11.77-6.199-18.873-11.531-7.211-4.843-8.901-16.611-2.975-23.335 1.975-2.487 5.343-4.343 8.877-5.235l3.688-.477c7.081-.143 11.507 1.727 14.756 5.355.904.916 1.642 1.904 3.022 4.045-3.772 2.404-3.76 2.381-9.163 5.879-1.154-2.486-3.069-4.046-5.093-4.724-3.142-.952-7.104.083-7.926 3.403-.285 1.023-.226 1.975.227 3.665 1.273 2.903 5.545 4.165 9.377 5.926 11.031 4.474 14.756 9.271 15.672 14.981.882 4.916-.213 8.105-.38 8.581z"
+          ></path>
+        </svg>
+        <span>JavaScript</span>
+      </button>
+      <button>
+        <svg viewBox="0 0 128 128">
+          <path
+            d="M2 1v125h125V1H2zm66.119 106.513c-1.845 3.749-5.367 6.212-9.448 7.401-6.271 1.44-12.269.619-16.731-2.059-2.986-1.832-5.318-4.652-6.901-7.901l9.52-5.83c.083.035.333.487.667 1.071 1.214 2.034 2.261 3.474 4.319 4.485 2.022.69 6.461 1.131 8.175-2.427 1.047-1.81.714-7.628.714-14.065C58.433 78.073 58.48 68 58.48 58h11.709c0 11 .06 21.418 0 32.152.025 6.58.596 12.446-2.07 17.361zm48.574-3.308c-4.07 13.922-26.762 14.374-35.83 5.176-1.916-2.165-3.117-3.296-4.26-5.795 4.819-2.772 4.819-2.772 9.508-5.485 2.547 3.915 4.902 6.068 9.139 6.949 5.748.702 11.531-1.273 10.234-7.378-1.333-4.986-11.77-6.199-18.873-11.531-7.211-4.843-8.901-16.611-2.975-23.335 1.975-2.487 5.343-4.343 8.877-5.235l3.688-.477c7.081-.143 11.507 1.727 14.756 5.355.904.916 1.642 1.904 3.022 4.045-3.772 2.404-3.76 2.381-9.163 5.879-1.154-2.486-3.069-4.046-5.093-4.724-3.142-.952-7.104.083-7.926 3.403-.285 1.023-.226 1.975.227 3.665 1.273 2.903 5.545 4.165 9.377 5.926 11.031 4.474 14.756 9.271 15.672 14.981.882 4.916-.213 8.105-.38 8.581z"
+          ></path>
+        </svg>
+        <span>JavaScript</span>
+      </button>
+
+      <button data-importance="high">
+        <svg viewBox="0 0 128 128">
+          <path
+            d="M2 1v125h125V1H2zm66.119 106.513c-1.845 3.749-5.367 6.212-9.448 7.401-6.271 1.44-12.269.619-16.731-2.059-2.986-1.832-5.318-4.652-6.901-7.901l9.52-5.83c.083.035.333.487.667 1.071 1.214 2.034 2.261 3.474 4.319 4.485 2.022.69 6.461 1.131 8.175-2.427 1.047-1.81.714-7.628.714-14.065C58.433 78.073 58.48 68 58.48 58h11.709c0 11 .06 21.418 0 32.152.025 6.58.596 12.446-2.07 17.361zm48.574-3.308c-4.07 13.922-26.762 14.374-35.83 5.176-1.916-2.165-3.117-3.296-4.26-5.795 4.819-2.772 4.819-2.772 9.508-5.485 2.547 3.915 4.902 6.068 9.139 6.949 5.748.702 11.531-1.273 10.234-7.378-1.333-4.986-11.77-6.199-18.873-11.531-7.211-4.843-8.901-16.611-2.975-23.335 1.975-2.487 5.343-4.343 8.877-5.235l3.688-.477c7.081-.143 11.507 1.727 14.756 5.355.904.916 1.642 1.904 3.022 4.045-3.772 2.404-3.76 2.381-9.163 5.879-1.154-2.486-3.069-4.046-5.093-4.724-3.142-.952-7.104.083-7.926 3.403-.285 1.023-.226 1.975.227 3.665 1.273 2.903 5.545 4.165 9.377 5.926 11.031 4.474 14.756 9.271 15.672 14.981.882 4.916-.213 8.105-.38 8.581z"
+          ></path>
+        </svg>
+        <span>JavaScript</span>
+      </button>
+      <button data-importance="max">
+        <svg viewBox="0 0 128 128">
+          <path
+            d="M2 1v125h125V1H2zm66.119 106.513c-1.845 3.749-5.367 6.212-9.448 7.401-6.271 1.44-12.269.619-16.731-2.059-2.986-1.832-5.318-4.652-6.901-7.901l9.52-5.83c.083.035.333.487.667 1.071 1.214 2.034 2.261 3.474 4.319 4.485 2.022.69 6.461 1.131 8.175-2.427 1.047-1.81.714-7.628.714-14.065C58.433 78.073 58.48 68 58.48 58h11.709c0 11 .06 21.418 0 32.152.025 6.58.596 12.446-2.07 17.361zm48.574-3.308c-4.07 13.922-26.762 14.374-35.83 5.176-1.916-2.165-3.117-3.296-4.26-5.795 4.819-2.772 4.819-2.772 9.508-5.485 2.547 3.915 4.902 6.068 9.139 6.949 5.748.702 11.531-1.273 10.234-7.378-1.333-4.986-11.77-6.199-18.873-11.531-7.211-4.843-8.901-16.611-2.975-23.335 1.975-2.487 5.343-4.343 8.877-5.235l3.688-.477c7.081-.143 11.507 1.727 14.756 5.355.904.916 1.642 1.904 3.022 4.045-3.772 2.404-3.76 2.381-9.163 5.879-1.154-2.486-3.069-4.046-5.093-4.724-3.142-.952-7.104.083-7.926 3.403-.285 1.023-.226 1.975.227 3.665 1.273 2.903 5.545 4.165 9.377 5.926 11.031 4.474 14.756 9.271 15.672 14.981.882 4.916-.213 8.105-.38 8.581z"
+          ></path>
+        </svg>
+        <span>JavaScript</span>
+      </button>
+    </p>
+    <p>
+      <input type="button" value="Elo" />
+      <input type="submit" value="Elo" />
+      <input type="button" value="Elo" disabled />
+      <input type="submit" value="Elo" disabled />
+      <input type="button" value="Elo" disabled data-category="primary" />
+      <input type="submit" value="Elo" data-category="primary" />
+      <input type="button" value="Elo" data-importance="low" />
+      <input type="submit" value="Elo" data-importance="high" />
+      <input type="submit" value="Elo" data-importance="max" />
+      <input type="submit" value="Elo" data-category="primary" />
+      <input type="submit" value="Elo" data-category="secondary" />
+      <input type="submit" value="Elo" data-category="special" />
+      <input type="submit" value="Elo" data-category="primary" disabled />
+      <input type="submit" value="Elo" data-category="secondary" disabled />
+      <input type="submit" value="Elo" data-category="special" disabled />
+    </p>
+
+    <p>
+      <a href="" role="button">a[role="button"]</a>
+      <a href="" role="button" data-category="primary">a[role="button"]</a>
+      <a href="" role="button" data-category="secondary">a[role="button"]</a>
+      <a href="" role="button" data-category="special">a[role="button"]</a>
+      <a href="" role="button" data-importance="low">a[role="button"]</a>
+      <a href="" role="button" data-importance="standard">a[role="button"]</a>
+      <a href="" role="button" data-importance="high">a[role="button"]</a>
+      <a href="" role="button" data-importance="max">a[role="button"]</a>
+    </p>
+
+    <p>
+      <button data-ico="&#xf021;">Refresh</button>
+      <button data-ico-suffix="&#xf021;">Refresh</button>
+      <button data-ico="&#xf021;"></button>
+      <button data-ico="&#xf021;" data-category="primary"></button>
+      <button data-ico="&#xf021;" data-category="special"></button>
+      <button data-ico="&#xf021;" data-category="secondary"></button>
+      <button data-ico="&#xf004;" data-importance="high"></button>
+      <a
+        role="button"
+        href="https://elo"
+        data-ico="&#xf021;"
+        data-category="primary"
+        >Hello</a
+      >
+      <a role="button" data-ico="&#xf021;" data-category="special"></a>
+      <a role="button" data-ico="&#xf021;" data-category="secondary"></a>
+      <a role="button" data-ico="&#xf004;" data-importance="high"></a>
+      <button
+        data-ico="&#xf004;"
+        data-importance="high"
+        data-category="primary"
+      ></button>
+      <button
+        data-ico="&#xf004;"
+        data-importance="high"
+        data-category="special"
+      ></button>
+      <button
+        data-ico="&#xf004;"
+        data-importance="high"
+        data-category="secondary"
+      ></button>
+      <button data-ico="&#xf630;"></button>
+      <button data-ico="&#xf630;" data-category="primary"></button>
+      <button data-ico="&#xf630;" data-category="special"></button>
+      <button data-ico="&#xf630;" data-category="secondary"></button>
+      <button
+        data-ico="&#xf004;"
+        data-importance="low"
+        data-category="primary"
+      ></button>
+      <button
+        data-ico="&#xf004;"
+        data-importance="normal"
+        data-category="primary"
+      ></button>
+      <button
+        data-ico="&#xf004;"
+        data-importance="high"
+        data-category="primary"
+      ></button>
+      <button
+        data-ico="&#xf004;"
+        data-importance="max"
+        data-category="primary"
+      ></button>
+      <button
+        data-ico="&#xf021;"
+        data-importance="low"
+        data-category="special"
+      ></button>
+      <button
+        data-ico="&#xf021;"
+        data-importance="normal"
+        data-category="special"
+      ></button>
+      <button
+        data-ico="&#xf021;"
+        data-importance="high"
+        data-category="special"
+      ></button>
+      <button data-ico="&#xf021;" data-importance="max" data-category="special">
+        Refresh
+      </button>
+    </p>
+
+    <p>
+      Hello I will add a <span data-ico-prefix="&#xf021;">glyph</span> here!
+    </p>
+    <p>
+      Hello I will add a <span data-ico-suffix="&#xf021;">glyph</span> here!
+    </p>
+    <p>Hello I will add a <span data-prefix="$">123</span> text prefix here!</p>
+  </body>
+</html>
