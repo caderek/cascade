@@ -37,11 +37,50 @@
   --shadow-right: rgba(45, 35, 66, 0.4) 4px 4px 6px;
 }
 
+/* :root {
+  --color-base: #f9f6f7;
+  --color-base-lit: #ffffff;
+  --color-base-dim: #f6eff2;
+  --color-base-border: #e6d5de;
+  --color-base-contrast: #2c2128;
+
+  --color-primary: #db435a;
+  --color-primary-lit: #e05772;
+  --color-primary-dim: #c33c3c;
+  --color-primary-border: #ab3636;
+  --color-primary-contrast: #fdedf2;
+
+  --color-secondary: #ffccdc;
+  --color-secondary-lit: #ffd6e0;
+  --color-secondary-dim: #e2b6c5;
+  --color-secondary-border: #c69fad;
+  --color-secondary-contrast: #2c2127;
+
+  --color-accent: #43dbc4;
+  --color-accent-lit: #57e0c5;
+  --color-accent-dim: #3cc3c3;
+  --color-accent-border: #36abab;
+  --color-accent-contrast: #182025;
+
+  --color-foreground: var(--color-base-lit);
+  --color-background: var(--color-base-dim);
+
+  --shadow-base: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px;
+  --shadow-primary: rgba(24, 19, 36, 0.9) 0 2px 4px,
+    rgba(24, 19, 36, 0.5) 0 7px 13px -3px;
+  --shadow-secondary: rgba(45, 35, 66, 0.5) 0 2px 4px,
+    rgba(45, 35, 66, 0.4) 0 7px 13px -3px;
+  --shadow-accent: rgba(86, 102, 53, 0.9) 0 2px 4px,
+    rgba(45, 35, 66, 0.5) 0 7px 13px -3px;
+  --shadow-right: rgba(45, 35, 66, 0.4) 4px 4px 6px;
+} */
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-base: #282a36;
     --color-base-lit: #3a3c48;
-    --color-base-dim: #232531;
+    --color-base-dim: #21222c;
     --color-base-border: #1f212c;
     --color-base-contrast: #b8b9be;
 
